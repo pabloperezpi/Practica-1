@@ -9,10 +9,11 @@ Serial.begin(115200);
 }
 
 void loop() {
+  
 Serial.println("ledhigh");
 digitalWrite(LED_BUILTIN, HIGH);
-delay(500);
+
 Serial.println("ledlow");
 digitalWrite(LED_BUILTIN, LOW);
-delay(500);
+
 }
